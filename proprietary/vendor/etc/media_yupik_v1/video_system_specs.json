@@ -89,7 +89,7 @@
             "enc_bitrate_boost_qp_max": 40,
             // time threshold of output buffer allocation loop since last input buffer queued(ms)
             // 0 --> no such limitation (loop until allocation done)
-            "max_retry_alloc_output_timeout": 0,
+            "max_retry_alloc_output_timeout": 10000,
             // override default primaries to BT709 for >=UHD decode
             "default_primaries_override" : 0,
 
