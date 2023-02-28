@@ -790,7 +790,6 @@ PRODUCT_PACKAGES += \
     HotwordEnrollmentOKGoogleHEXAGON \
     HotwordEnrollmentXGoogleHEXAGON \
     QtiTelephonyService \
-    uceShimService \
     WfdService \
     dpmserviceapp \
     ims \
