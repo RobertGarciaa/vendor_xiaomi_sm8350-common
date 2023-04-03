@@ -28,6 +28,7 @@ as anyway perflock calls of these resources would fail. -->
         <Config MajorValue="0x1" MinorValue="0x2" Node="/proc/sys/kernel/sched_busy_hyst_ns" />
         <Config MajorValue="0x1" MinorValue="0x3" Supported="no" Target="shima" /> <!-- lpm_ref_stddev -->
         <Config MajorValue="0x1" MinorValue="0x4" Supported="no" Target="shima" /> <!-- lpm_tmr_add -->
+        <Config MajorValue="0x1" MinorValue="0x6" Supported="yes" Target="shima" /> <!-- lpm_sleep -->
         <Config MajorValue="0x1" MinorValue="0x3" Supported="no" Target="yupik" /> <!-- lpm_ref_stddev -->
         <Config MajorValue="0x1" MinorValue="0x4" Supported="no" Target="yupik" /> <!-- lpm_tmr_add -->
 
@@ -47,7 +48,7 @@ as anyway perflock calls of these resources would fail. -->
         <Config MajorValue="0x6" MinorValue="0x0" Supported="no" Target="lahaina" />
         <Config MajorValue="0x6" MinorValue="0x1" Supported="no" Target="lahaina" />
         <Config MajorValue="0x6" MinorValue="0x2" Supported="no" Target="lahaina" />
-        <Config MajorValue="0x6" MinorValue="0x3" Supported="no" Target="lahaina" />
+        <Config MajorValue="0x6" MinorValue="0x3" Supported="yes" Target="lahaina" />
         <Config MajorValue="0x6" MinorValue="0x4" Supported="no" Target="lahaina" /> <!-- cpubw_hmon_low_power_ceil_mbps -->
         <Config MajorValue="0x6" MinorValue="0x5" Supported="no" Target="lahaina" /> <!-- cpubw_hmon_low_power_io_percent -->
         <Config MajorValue="0x6" MinorValue="0x6" Supported="no" Target="lahaina" />
@@ -84,7 +85,7 @@ as anyway perflock calls of these resources would fail. -->
 
         <Config MajorValue="0xC" MinorValue="0x0" Supported="no" Target="lahaina" />
         <Config MajorValue="0xC" MinorValue="0x1" Supported="no" Target="lahaina" />
-        <Config MajorValue="0xC" MinorValue="0x2" Supported="no" Target="lahaina" />
+        <Config MajorValue="0xC" MinorValue="0x2" Supported="yes" Target="lahaina" />
         <Config MajorValue="0xC" MinorValue="0x3" Supported="no" Target="lahaina" />
 
         <Config MajorValue="0xC" MinorValue="0x0" Supported="no" Target="shima" />
