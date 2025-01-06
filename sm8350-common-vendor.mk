@@ -247,8 +247,8 @@ PRODUCT_PACKAGES += \
     libwfduibcsrcinterface_proprietary \
     libwfdutils_proprietary \
     libasphere \
-    libhwdap \
     libshoebox \
+    libswdap \
     libswgamedap \
     libswvqe \
     vendor.qti.hardware.wifidisplaysession@1.0_vendor \

@@ -4692,7 +4692,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libhwdap",
+    name: "libshoebox",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -4700,16 +4700,11 @@ cc_prebuilt_library_shared {
     target: {
         android_arm: {
             srcs: [
-                "proprietary/vendor/lib/soundfx/libhwdap.so",
+                "proprietary/vendor/lib/soundfx/libshoebox.so",
             ],
             shared_libs: [
-                "liblog",
-                "libutils",
                 "libcutils",
-                "libaudioutils",
-                "libdapparamstorage",
-                "libhidlbase",
-                "vendor.dolby.hardware.dms@2.0",
+                "liblog",
                 "libc++",
                 "libc",
                 "libm",
@@ -4724,7 +4719,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libshoebox",
+    name: "libswdap",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -4732,11 +4727,16 @@ cc_prebuilt_library_shared {
     target: {
         android_arm: {
             srcs: [
-                "proprietary/vendor/lib/soundfx/libshoebox.so",
+                "proprietary/vendor/lib/soundfx/libswdap.so",
             ],
             shared_libs: [
-                "libcutils",
                 "liblog",
+                "libutils",
+                "libcutils",
+                "libaudioutils",
+                "libdapparamstorage",
+                "libhidlbase",
+                "vendor.dolby.hardware.dms@2.0",
                 "libc++",
                 "libc",
                 "libm",
